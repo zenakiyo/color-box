@@ -1,0 +1,25 @@
+#root {
+  margin: 0;
+}
+p{
+  font-size: 2em;
+  font-weight: bold;
+}
+.toggler{
+  font-size: 64px;
+}
+.boxDiv{
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 180ms;
+}
+.boxDiv:hover{
+  scale: 1.1;
+}
+.container{
+  display: grid;
+  margin: 0 500px;
+  gap: 1px;
+}
